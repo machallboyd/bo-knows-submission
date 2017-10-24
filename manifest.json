@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Bo Knows Submission",
+  "permissions": [
+    "https://www.bo-ne.ws/submit",
+    "activeTab"
+  ],
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["jquery-3.2.1.min.js", "content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
