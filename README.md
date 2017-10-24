@@ -4,7 +4,7 @@
 
 Are you a Bo News user who wants to submit stories to the front page but don't want to spend entire seconds copying and pasting things back and forth between tabs? Do you hate trying to hunt for the article image url hidden behind a bunch of horseshit? Wish you could just press a button and have everything done for you? If so, we've got a Chrome extension for you.
 
-###Testing the beta:
+### Testing the beta:
 
 For instructions on installing an unpacked extension, see here: <https://stackoverflow.com/questions/24577024/install-chrome-extension-not-in-the-store>. You'll need to download all the files and put them in a directory, enable developer mode, and select the directory.
 
