@@ -5,19 +5,21 @@
     "https://www.bo-ne.ws/submit",
     "activeTab"
   ],
-  "version": "0.1",
+  "version": "1.0",
   "background": {
     "scripts": ["background.js"]
   },
   "content_scripts": [
     {
-      "matches": [
-        "<all_urls>"
-      ],
+      "matches": ["https://*/*", "http://*/*"],
       "js": ["jquery-3.2.1.min.js", "content.js"]
     }
   ],
   "browser_action": {
     "default_icon": "icon.png"
-  }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon48.png",
+    "128": "icon128.png" }
 }
