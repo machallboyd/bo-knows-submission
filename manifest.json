@@ -7,7 +7,6 @@
   ],
   "version": "1.0",
   "description" : "Chrome automation for submitting to Bo News",
-  "default_locale": "en",
   "background": {
     "scripts": ["background.js"]
   },
