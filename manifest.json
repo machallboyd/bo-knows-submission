@@ -5,7 +5,7 @@
     "https://www.palacebeast.com/submit.php",
     "activeTab"
   ],
-  "version": "1.0",
+  "version": "1.1",
   "description" : "Chrome automation for submitting to Bo News",
   "background": {
     "scripts": ["background.js"]
