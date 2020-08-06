@@ -1,6 +1,3 @@
-
-// console.log('Bo script loaded and started');
-
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     if( request.message === "bo_button_click" ) {

@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Bo Knows Submission",
   "permissions": [
-    "https://www.bo-ne.ws/submit",
+    "https://www.palacebeast.com/submit.php",
     "activeTab"
   ],
   "version": "1.0",
