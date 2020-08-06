@@ -10,7 +10,7 @@ chrome.runtime.onMessage.addListener(
        if (typeof url == 'undefined') {
          url = window.location.href;
        }
-       var text = window.getSelection().toString();
+       var text = window.getSelection().toString() || $("[property='og:description']").attr("content");
        chrome.runtime.sendMessage({"message": "open_bo_tab", "image": image, "headline": headline, "url": url, "text": text});
     }
   }
